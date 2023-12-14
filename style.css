@@ -1,0 +1,43 @@
+
+#kanji {
+    display:flex;
+  }
+  #kanji div {
+  margin:0 10px;
+  backdrop-filter: blur(10px);
+  }
+  #kanji div a{
+    font-size:38px;
+    display:block;
+    margin:10px 26px;
+    line-height:1.8em;
+    text-align:right;
+    color:white;
+    font-weight:600;
+    text-decoration:none;
+  }
+  
+  #kanji div span{
+    margin:0;
+    display:block;
+    text-align:center;
+    font-size: .3em;
+  }
+  #joyo {
+      flex-wrap: wrap;
+      display:flex;
+      justify-content:space-around;
+  }
+  #joyo a {
+    display:block;
+  }
+  
+  #joyo > div {
+    display:flex;
+    flex-direction:column;
+  }
+  
+  #joyo > div >a:nth-child(1n) {
+    flex-basis:100%;
+  }
+  
